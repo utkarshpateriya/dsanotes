@@ -24,3 +24,5 @@ def logIterations(n):
     '''
     for i in range(n):
         i = i/2
+
+# Hello from windows
