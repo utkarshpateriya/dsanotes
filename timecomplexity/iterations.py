@@ -25,4 +25,17 @@ def logIterations(n):
     for i in range(n):
         i = i/2
 
-# Hello from windows
+#Space Complexity is the rate of growth of memory or space with respect to size
+#Amount of extra space taken by the algorithm is space complexity input and output space should not be included
+
+#Check if x is present in given array or not. Return bool
+def is_x_present(arr, x):
+    for i in range(len(arr)):
+        if arr[i] == x:
+            return True
+    return False
+
+print(is_x_present([1,2,3,4,5,6], 9))
+#Here time complexity is O(N) and space complexity is O(1)
+
+# Note:For all online platforms processing speed is 1GHz/sec i.e 10^9 instructions per second.
